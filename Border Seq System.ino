@@ -37,9 +37,9 @@ void loop() {
     digitalWrite(LED_PIN, LOW); 
   }
   
-  Serial.print("distance: ");
   Serial.print(distance_cm);
-  Serial.println(" cm");
+  Serial.println();
+
 
   delay(500);
 }
